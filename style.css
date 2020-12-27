@@ -233,7 +233,7 @@ html{
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
     margin: 2% 1%;
     margin-bottom: 3%;
-    box-shadow: 0 10px 10px -5px;
+    box-shadow: 0 10px 10px -5px #888888;
   }
   
   /* This container is needed to position the front and back side */
