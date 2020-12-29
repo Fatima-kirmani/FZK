@@ -62,6 +62,9 @@ html{
     color: #FFA500;
     transition: 0.3s ease-in-out;
 }
+.main-menu .row a:active{
+    color: #FFA500;
+}
 .intro , .social-icons , .contact{
     width: 100%;
     display: flex;
@@ -453,4 +456,10 @@ html{
 .black p{
     color: white;
     text-align: center;
+}
+
+@media (max-width: 1024px){
+    .banner{
+        height: 50vh;
+    }
 }
