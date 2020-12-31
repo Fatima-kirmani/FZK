@@ -537,7 +537,7 @@ html{
         left: 201px;
     }
     #education .col {
-        width: 60%;
+        width: 80%;
     }
     /* Style the navigation menu */
 .topnav {
@@ -596,4 +596,10 @@ html{
   .main-menu .row a li{
     padding: 15px;
   }
+}
+@media (max-width:450px){
+    .picture img{
+        top: -60px;
+        left: 140px;
+    }
 }
