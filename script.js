@@ -77,3 +77,13 @@ var TxtRotate = function(el, toRotate, period) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
   }
+
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+      x.style.transition ="ease-in 0.3s";
+    }
+  }
