@@ -589,6 +589,9 @@ html{
     margin-top: 3%;
     display: block;
   }
+  .icon{
+      text-decoration: none;
+  }
   .main-menu .row{
     margin-top: 1%;
     background-color: black;
