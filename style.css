@@ -214,18 +214,23 @@ html{
       flex-wrap: wrap;
       justify-content: center;
       margin-top: 3%;
-      margin-bottom: 3%;
+
+  }
+  .para-about-me .line{
+      width: 100%;
+  }
+  .para-about-me .line hr{
+      width: 4%;
   }
   #skills span{
-      padding-left: 10px;
+      padding-right: 10px;
   }
   #Services span{
-      padding-left: 10px;
+      padding-right: 10px;
   }
 
   #Services h2{
     margin-top: 3%;
-    margin-bottom: 3%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -306,11 +311,10 @@ html{
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 5%;
-    margin-bottom: 5%;
 
 }
 #education h2 span{
-    padding-left: 10px;
+    padding-right: 10px;
 }
 #education .col{
     width: 30%;
@@ -362,14 +366,16 @@ html{
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 3%;
-    margin-bottom: 5%;
 }
 #portfolio h2 span{
-    padding-left: 10px;
+    padding-right: 10px;
 }
 .col1{
     width: 33%;
     margin: 2%;
+}
+#services h2 span{
+    padding-right: 10px;
 }
 .col1 img{
     width: 100%;
@@ -420,7 +426,6 @@ html{
       flex-wrap: wrap;
       justify-content: center;
       margin-top: 3%;
-      margin-bottom: 5%;
   }
   #contact span{
       padding-left: 10px;
@@ -605,4 +610,21 @@ html{
         top: -60px;
         left: 140px;
     }
+}
+.line hr{
+    width: 3%;
+    height: 5px;
+    /* color: black; */
+    background: #FFA500;
+    /* text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+    border: none;
+}
+.line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5%;
 }

@@ -83,7 +83,8 @@ var TxtRotate = function(el, toRotate, period) {
     if (x.style.display === "block") {
       x.style.display = "none";
     } else {
+      x.style.transition = "all 2s ease-in-out";
       x.style.display = "block";
-      x.style.transition ="ease-in 0.3s";
+      
     }
   }
